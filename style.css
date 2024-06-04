@@ -14,9 +14,12 @@ body {
     left: 9px;
     border-radius: 10px;
     border: 1px #E0E0E0 solid;
-    color: #E0E0E0;
     display: inline-block;
     position: absolute;
+}
+
+.my_password::placeholder {
+    color:  #E0E0E0;
 }
 
 .my_password2 {
@@ -27,9 +30,12 @@ body {
     border-radius: 15px;
     border: 1px #FF0000 solid;
     background-color: #610000;
-    color: #FF0000;
     display: inline-block;
     position: absolute;
+}
+
+.my_password2::placeholder {
+    color: #FF0000;
 }
 
 .my_password3 {
@@ -39,10 +45,13 @@ body {
     left: 9px;
     border-radius: 5px;
     border: 1px #A8AB00 solid;
-    color: #A8AB00 !important;
     position: left;
     display: inline-block;
     position: absolute;
+}
+
+.my_password3::placeholder {
+    color: #A8AB00;
 }
 
 .my_password4 {
@@ -53,7 +62,10 @@ body {
     border-radius: 30px;
     border: 2px #F9FE03 solid;
     background-color:#292828;
-    color: #F9FE03;
     display: inline-block;
     position: absolute;
+}
+
+.my_password4::placeholder {
+    color: #F9FE03;
 }
